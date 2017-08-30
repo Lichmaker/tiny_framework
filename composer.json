@@ -1,5 +1,14 @@
 {
-  "required": {
-
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "^5.4",
+    "filp/whoops": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "services"
+    ]
   }
 }
